@@ -25,6 +25,10 @@ public class CorrectNameTest {
                 {"ТимотейШевроле", false},
                 {"Тимоти Шаламе", true},
                 {null, false},
+                {"Т Ш", true},
+                {"Тиммоттей Шеввролле", true},
+                {"Тиммоттей Шеввроллее", false},
+                {"", false},
         };
     }
 
